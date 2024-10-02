@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=UTF-8>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<h1 id="title"> Job Application Form</h1>
+<p id="description">Thank you for taking you time to apply.</p>
+
+<form id="survey-form">
+  <div class="-element">
+<label id="name-label">
+  Name <input placeholder="Enter your name" id="name"type="text" required/>
+  </label>
+  </div>
+<div class="-element">
+<label id="email-label">
+  Email <input placeholder="Enter your email" id="email"type="email" required/>
+  </label>
+  </div>
+<div class="input-element">
+<label id="number-label">
+  Age
+  </label>
+  <input placeholder="age"id="number" min="18" max="54" type="number" required/>
+</div>
+<div class="input-element">
+<label id="select-label">
+  what work are you good in?
+  </label>
+  <select id="dropdown">
+    <option>Marketing</option>
+    <option>Sales</option>
+    <option>Real Estate Agent</option>
+    <option>Accountant</option>
+    <option>Business</option>
+    <option>Customer service representative</option>
+    <option>assistant</option>
+    <option>manager</option>
+  </select>
+  </div>
+  <div class="input-element">
+    <label>click "Yes" if you have work experience....!</label>
+    <div class="input-element">
+  <label>  <input type="radio" name="work experience"  value="yes"/>Yes</label>
+  </div>
+  <div class="input-element">
+ <label><input type="radio" name="work experience" value="yes"/>No</label>
+ </div>
+  </div>
+    <div class="input-element">
+    <label>Click yes if you have a big degree related to this job....! </label>
+    <div class="input-element">
+  <label>  <input type="checkbox" name="work experience" value="qualifications" />big degree</label>
+  </div>
+  <div class="input-element">
+ <label><input type="checkbox" name="work experience" value="qualifications" />No degree</label>
+ </div>
+   <div class="input-element">
+ <label><input type="checkbox" name="work experience" value="qualifications" />associate degree</label>
+ </div>
+   <div class="input-element">
+ <label><input type="checkbox" name="work experience" value="qualifications" />bachelor's degree</label>
+ </div>
+<div class="input-element">
+ <label><input type="checkbox" name="work experience" value="qualifications" />professional degrees</label>
+ </div>
+<div class="input-element">
+ <label><input type="checkbox" name="work experience" value="qualifications" />master's degree</label>
+ </div>
+ <div class="input-element">
+ <label><input type="checkbox" name="work experience" value="qualifications" />doctorate degree</label>
+ </div>
+ <div class="input-element">
+ <label><input type="checkbox" name="work experience" value="qualifications"/> graduate degrees</label>
+ </div>
+  </div>
+  <div class="input-element">
+    <label>Additional comments</label>
+    <textarea type="text"></textarea>
+  </div>
+  <button type="submit" id="submit">
+    Submit
+  </button>
+</form>
+</body>
+</html>
+
